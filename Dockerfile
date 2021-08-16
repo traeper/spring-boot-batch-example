@@ -11,6 +11,3 @@ COPY scripts/simple-spring-boot-start.sh simple-spring-boot-start.sh
 RUN chmod +x /simple-spring-boot-start.sh
 
 CMD /simple-spring-boot-start.sh com.traeper.demo.DemoApplicationKt
-
-#ENTRYPOINT -environment container \
-#        & /simple-spring-boot-start.sh com.traeper.demo.DemoApplicationKt
